@@ -1,8 +1,8 @@
 # **Joseph Williamson**
-  **9/27/2018**
-  **2143-OOP**
+##  **9/27/2018**
+## **2143-OOP**
   
-## **Definitions**
+# **Definitions**
 
 * Class
 * Object
