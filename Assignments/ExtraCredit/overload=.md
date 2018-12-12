@@ -11,6 +11,7 @@ The purpose of the two are basically the same, but the difference is the assignm
 
 ##### **Assignment Example**
 
+```
 class Fraction{
  private: //private data members
 	int num;
@@ -50,4 +51,6 @@ int main()
     Fraction f;
     f = fiveThirds; // calls overloaded assignment
     std::cout << f;
-    return 0;}
+    return 0;
+    }
+  ```
