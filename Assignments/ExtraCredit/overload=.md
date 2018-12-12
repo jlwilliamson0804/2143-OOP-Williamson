@@ -11,9 +11,8 @@ The purpose of the two are basically the same, but the difference is the assignm
 
 ##### **Assignment Example**
 
-class Fraction
-{
-private: //private data members
+class Fraction{
+ private: //private data members
 	int num;
 	int denom;
  
