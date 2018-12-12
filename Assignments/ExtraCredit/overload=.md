@@ -17,10 +17,10 @@ private: //private data members
 	int denom;
  
 public: //public member functions
-    // Default constructor
+    //Default constructor
     Fraction(int num=0, int denom=1);
  
-    // Overloaded assignment
+    //Overloaded assignment
         Fraction& operator= (const Fraction &fraction);
   //friend function to so we can use cout<< on fraction
 	friend std::ostream& operator<<(std::ostream& out, const Fraction &f1);
@@ -34,14 +34,14 @@ std::ostream& operator<<(std::ostream& out, const Fraction &f1)
 	return out;
 }
  
-// basic assignment copy
+//basic assignment copy
 Fraction& Fraction::operator= (const Fraction &fraction)
 {
     // copy from RHS to LHS
     num = fraction.num;
     denom = fraction.denom;
  
-    // return the existing object
+    //return the existing object
     return *this;
 }
  
